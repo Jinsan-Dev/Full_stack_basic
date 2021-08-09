@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
 public interface EmployeeRepo extends JpaRepository<Employee, Long> {
-    void deleteEmployeeById(Long id);   // Long is "id" in Employee
+    void deleteEmployeeById(Long id);                                   // Long is "id" in Employee
 
-    Optional findEmployeeById(Long id); // 클래스 이름을 인식해서 알아서 해줌
+    Optional<Employee> findEmployeeById(Long id);                       // 클래스 이름을 인식해서 알아서 해줌
 }
