@@ -1,0 +1,10 @@
+VS CODE settings
+
+Extensions
+
+for HTML:
+	Auto close tag: 자동으로 태그를 닫아줌
+	Auto rename tag: 태그의 이름을 변경할 때, 해당 태그들의 이름을 바꿔줌
+	Bracket pair colonizer: 각 괄호들의 색을 다르게 해 구분이 쉽게 해줌
+	Material icon theme: 아이콘을 각 확장자에 맞추어 제공
+	 
